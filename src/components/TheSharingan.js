@@ -8,7 +8,7 @@ const Sharingan = () => {
   useEffect(() => {
     const tl = gsap.timeline({
       scrollTrigger: {
-        trigger: ".Layer_1",
+        trigger: "#eye-container",
         start: "top center", 
         duration: 4,
         ease: "power1.out",
